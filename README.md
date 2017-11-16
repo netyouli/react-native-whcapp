@@ -7,11 +7,8 @@ Provide learning advice for learning -native development
 **Support: Android 5+   iOS 8.0+**
 
 ## Screenshot
-
-![whcapp_home](./screenshot/home.png)
-![whcapp_community](./screenshot/community.png)
-![whcapp_homerefresh](./screenshot/homerefresh.png)
-![whcapp_my](./screenshot/my.png)
+<img src = "./screenshot/home.png" width = "375"><img src = "./screenshot/community.png" width = "375">
+<img src = "./screenshot/homerefresh.png" width = "375"><img src = "./screenshot/my.png" width = "375">
 
 ## Development
 
