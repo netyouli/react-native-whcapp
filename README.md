@@ -6,6 +6,14 @@ Provide learning advice for learning react-native development
 
 **Support: Android 5+   iOS 8.0+**
 
+## App Architecture
+
+```
+"react": "16.0.0-beta.5",
+"react-native": "0.49.5",
+"react-navigation": "1.0.0-beta.19"
+```
+
 ## Screenshot
 <img src = "./screenshot/home.png" width = "375"><img src = "./screenshot/community.png" width = "375">
 <img src = "./screenshot/homerefresh.png" width = "375"><img src = "./screenshot/my.png" width = "375">
