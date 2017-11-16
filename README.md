@@ -2,7 +2,7 @@
 
 [![License Apache2.0](https://img.shields.io/hexpm/l/plug.svg)](https://raw.githubusercontent.com/attentiveness/whcapp/master/LICENSE)
 
-Provide learning advice for learning -native development
+Provide learning advice for learning react-native development
 
 **Support: Android 5+   iOS 8.0+**
 
