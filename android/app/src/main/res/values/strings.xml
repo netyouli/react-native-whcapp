@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">whcapp</string>
+    <string name="app_name">whc</string>
+    <string name="title_activity_launch">LaunchActivity</string>
 </resources>
