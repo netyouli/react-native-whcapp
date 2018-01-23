@@ -2,13 +2,15 @@
 
 [![License Apache2.0](https://img.shields.io/hexpm/l/plug.svg)](https://raw.githubusercontent.com/attentiveness/whcapp/master/LICENSE)
 
-Provide learning advice for learning react-native development
-
 A complete react-native app with complete data interaction capabilities.
 
-**android版本体验: **[https://fir.im/whcandroid](https://fir.im/whcandroid)
+Provide learning advice for learning react-native development
 
-**ios版本体验(内测): **[https://fir.im/whcandroid](https://fir.im/whcios)
+一个完整的react-native app 并且带有完整的数据交互实现
+
+**android版本体验:** [https://fir.im/whcandroid](https://fir.im/whcandroid)
+
+**ios版本体验(内测):** [https://fir.im/whcandroid](https://fir.im/whcios)
 
 **app所使用数据接口文档地址：**[http://www.wuhaichao.com/api_doc/](http://www.wuhaichao.com/api_doc/)
 
@@ -22,6 +24,7 @@ A complete react-native app with complete data interaction capabilities.
 "react": "16.0.0-beta.5",
 "react-native": "0.49.5",
 "react-navigation": "1.0.0-beta.19",
+
 "react-redux": "^5.0.5",
 "redux": "^3.7.2",
 "redux-thunk": "^2.2.0"
