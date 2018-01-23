@@ -10,7 +10,7 @@ Provide learning advice for learning react-native development
 
 **android版本体验:** [https://fir.im/whcandroid](https://fir.im/whcandroid)
 
-**ios版本体验(内测):** [https://fir.im/whcandroid](https://fir.im/whcios)
+**ios版本体验(内测):** [https://fir.im/whcios](https://fir.im/whcios)
 
 **app所使用数据接口文档地址：**[http://www.wuhaichao.com/api_doc/](http://www.wuhaichao.com/api_doc/)
 
