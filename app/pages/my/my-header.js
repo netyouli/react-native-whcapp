@@ -38,7 +38,7 @@ class MyHeader extends Component {
     render() {
         const {click, info} = this.props;
         let image = require('../../images/default_icon.png');
-        if (info != void 0 && info.image) {
+        if (info !== void 0 && info.image) {
             image = {uri: Api.main_url + info.image};
         }
         const user_name = info.username || '游客';
