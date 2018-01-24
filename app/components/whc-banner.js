@@ -18,15 +18,12 @@
  */
 
 import React , {Component} from 'react';
-import PropTypes from 'prop-types';
 import {
     View,
     ScrollView,
     Image,
     StyleSheet,
-    ViewPropTypes,
     TouchableHighlight,
-    Platform,
 } from 'react-native';
 
 import * as screen from '../constants/screen';
@@ -51,7 +48,7 @@ class WHCBannerIndicater extends Component {
         const pageIndex = this.state.pageindex;
         let pageTexts = [];
         for (let i = 0; i < page; i++) {
-            if (i == pageIndex) {
+            if (i === pageIndex) {
                 pageTexts.push((<View key = {i} style = {[styles.dot, {backgroundColor: color.theme}]}/>))
             }else {
                 pageTexts.push((<View key = {i} style = {styles.dot}/>))

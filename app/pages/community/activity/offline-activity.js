@@ -38,7 +38,7 @@ export default class OfflineActivity extends BaseList {
                 this.reloadData(json.data.list);
             }
         });
-    }
+    };
 
     render() {
         return super.render();

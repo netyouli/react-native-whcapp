@@ -50,10 +50,10 @@ export default class Home extends Controller {
                 page: this.page,
             }
         }, (json) => {
-            if (this.page == 1) {
+            if (this.page === 1) {
                 this.data_list = [];
             }
-            if (json.code == 0) {
+            if (json.code === 0) {
                 this.data_list = this.data_list.concat(json.data.list);
             }else {
                 this.toast(json.message);

@@ -116,7 +116,7 @@ export default class Controller extends Component {
         if (this.canBack()) {
             this.pop();
         }
-    }
+    };
 
     /**
      * push跳转新页面
@@ -142,7 +142,7 @@ export default class Controller extends Component {
         }else {
             console.error('push name not null');
         }
-    }
+    };
 
     /**
      * 设置导航标题
@@ -161,7 +161,7 @@ export default class Controller extends Component {
                 this.props.navigation.dispatch(setParam);
             }
         }
-    }
+    };
 
     /**
      * 设置根路由
@@ -180,7 +180,7 @@ export default class Controller extends Component {
         }else {
             console.warn('root constroller name not null');
         }
-    }
+    };
 
 
     /**
@@ -217,7 +217,7 @@ export default class Controller extends Component {
             routerMap.delete(routerName);
             goBack();
         }
-    }
+    };
 
     /**
      * toast 弹窗
@@ -230,7 +230,7 @@ export default class Controller extends Component {
             state.loading = false;
             return state;
         });
-    }
+    };
 
     /**
      * 网络菊花加载
@@ -242,7 +242,7 @@ export default class Controller extends Component {
             state.message = null;
             return state;
         });
-    }
+    };
 
     render() {
         const {message = null, loading = false} = this.state;
