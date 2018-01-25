@@ -62,7 +62,7 @@ class Community extends Controller {
 
     _onRefresh = (e) => {
         this._startRequest();
-    }
+    };
 
     _startRequest = () => {
         this.loading();
@@ -82,7 +82,7 @@ class Community extends Controller {
                 this.toast(json.message);
             }
         });
-    }
+    };
 
     _clickTopItem = (index, item = null) => {
         switch(index){
@@ -106,7 +106,7 @@ class Community extends Controller {
                 this.push('Webv', {title: item.title, linkUrl: item.linkUrl});
             }
         }
-    }
+    };
 
     _cell = ({item, index}) => {
         switch (index) {
@@ -167,7 +167,7 @@ class Community extends Controller {
                 );
             }
         }
-    }
+    };
 
     render() {
         const {loading} = this.state;

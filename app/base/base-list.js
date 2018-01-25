@@ -40,11 +40,11 @@ export default class BaseList extends Controller {
             this.datas = data;
             this.loading(false);
         }, 1000);
-    }
+    };
 
     clickItem = (item) => {
         this.push('Webv', {linkUrl: item.linkUrl, title: item.title});
-    }
+    };
 
     render() {
         return (

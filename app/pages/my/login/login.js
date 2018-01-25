@@ -65,7 +65,7 @@ class Login extends Controller {
                 this._setlogin(login);
             });
         }
-    }
+    };
 
     _goLogin = () => {
         const user_name = this.user_name || '';
@@ -100,15 +100,15 @@ class Login extends Controller {
                 });
             }
         });
-    }
+    };
 
     _gotoForgetPsw = () => {
         this.push('Forget', {title: '忘记密码'});
-    }
+    };
 
     _gotoRegister = () => {
         this.push('Register', {title: '注册', block: this._registerStateBlock});
-    }
+    };
 
     _setlogin = (login) => {
         this.user_name = login.username;
@@ -117,7 +117,7 @@ class Login extends Controller {
             state.login = login;
             return state;
         });
-    }
+    };
 
     render() {
         return (

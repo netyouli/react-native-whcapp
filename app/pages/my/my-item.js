@@ -52,7 +52,7 @@ const MyItem = ({img, title, value, click,isSwitch}) => {
             </View>
         </TouchableHighlight>
     );
-}
+};
 
 MyItem.prototype = propTypes;
 

@@ -41,7 +41,7 @@ class WHCBannerIndicater extends Component {
         this.setState({
             pageindex: index,
         });
-    }
+    };
 
     render() {
         const {page} = this.props;
@@ -94,11 +94,11 @@ class WHCBanner extends Component {
             this.pageindex = index - 1;
         }
         this.indicater.updatePageIndex(this.pageindex);
-    }
+    };
 
     _onScrollBeginDrag = (e) => {
         this._clearTimer();
-    }
+    };
 
     _onScrollEndDrag = (e) => {
         const offsetx = e.nativeEvent.contentOffset.x;
@@ -109,7 +109,7 @@ class WHCBanner extends Component {
             this._goIndex(count);
         }
         this._makeTimer();
-    }
+    };
 
     _onScroll = (e) => {
         const offsetx = e.nativeEvent.contentOffset.x;
@@ -128,12 +128,12 @@ class WHCBanner extends Component {
             this._goIndex(1);
         }
         this.offsetx = offsetx;
-    }
+    };
 
     _goIndex = (index, animated) => {
         this.offsetx = index * screen.width;
         this.scrollview.scrollTo({x: index * screen.width, y: 0, animated: animated || false});
-    }
+    };
 
     _makeTimer = () => {
         const interval = this.props.interval || 3;
@@ -142,11 +142,11 @@ class WHCBanner extends Component {
             this.pageindex += 1;
             this._goIndex(this.pageindex, true);
         }, interval * 1000);
-    }
+    };
 
     _clearTimer = () => {
         this.timer && clearTimeout(this.timer);
-    }
+    };
 
     render() {
         const {urls, style, renderIndicater, onPress} = this.props;

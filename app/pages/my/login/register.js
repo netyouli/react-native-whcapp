@@ -95,7 +95,7 @@ export default class Register extends Controller {
                 });
             }
         });
-    }
+    };
 
 
     render() {

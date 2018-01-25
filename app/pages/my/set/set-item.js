@@ -38,7 +38,7 @@ onClick,
             </View>
         </TouchableHighlight>
     )
-}
+};
 
 const styles = StyleSheet.create({
     view: {

@@ -61,13 +61,13 @@ class My extends Controller {
                 this.push('Login', {title: '登录'});
             }
         }
-    }
+    };
 
     _startRequest = () => {
         if (!account.did_login) {
             this._autoLogin();
         }
-    }
+    };
 
     _autoLogin = () => {
         Storage.value('login', (login) => {
@@ -83,7 +83,7 @@ class My extends Controller {
                 });
             }
         });
-    }
+    };
 
     render() {
         const {userInfo}  = this;

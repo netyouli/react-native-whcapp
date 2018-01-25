@@ -44,7 +44,7 @@ export default class WHCToast extends Component {
             state.opacity.setValue(value);
             return state;
         });
-    }
+    };
 
     _startAnimation = () => {
         this.did_end_show = false;
@@ -71,7 +71,7 @@ export default class WHCToast extends Component {
                 });
             }, duration || 2500);
         });
-    }
+    };
 
     render() {
         const {message = null} = this.props;

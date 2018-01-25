@@ -49,13 +49,13 @@ class Webv extends Controller {
             return true;
         }
         return false;
-    }
+    };
 
     _onNavigationStateChange = (navState) => {
         const {title = ''} = navState;
         this.setTitle(title);
         this.canGoBack = navState.canGoBack;
-    }
+    };
 
     render() {
         const { params } = this.props.navigation.state;

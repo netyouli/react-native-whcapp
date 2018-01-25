@@ -38,7 +38,7 @@ export default class DidRead extends BaseList {
                 this.reloadData(json.data.list);
             }
         });
-    }
+    };
 
     render() {
         return super.render();

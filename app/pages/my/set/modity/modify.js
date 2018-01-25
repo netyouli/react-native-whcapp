@@ -105,7 +105,7 @@ class Modity extends Controller {
                 this.toast(json.message);
             }
         });
-    }
+    };
 
     render() {
         const {params} = this.props.navigation.state;

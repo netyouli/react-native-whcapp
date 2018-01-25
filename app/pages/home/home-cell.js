@@ -38,11 +38,11 @@ class HomeCell extends Component {
 
     _clickCollection = (e) => {
         Alert.alert('点击收藏');
-    }
+    };
 
     _clickMsg = (e) => {
         Alert.alert('点击阅读消息');
-    }
+    };
 
     render() {
         const item = this.props.itemInfo;

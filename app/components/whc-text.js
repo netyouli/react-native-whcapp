@@ -34,4 +34,4 @@ export default WHCText = ({
             <Text style = {{color: textColor, fontSize: fontSize}}>{text}</Text>
         </View>
     );
-}
+};

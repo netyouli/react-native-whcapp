@@ -44,7 +44,7 @@ onChangeText,
         </View>,
         <WHCLine/>]
     );
-}
+};
 
 const styles = StyleSheet.create({
     view: {

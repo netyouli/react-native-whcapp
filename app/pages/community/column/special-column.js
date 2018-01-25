@@ -51,11 +51,11 @@ export default class SpecialColumn extends Constroller {
                 this.toast(json.message);
             }
         });
-    }
+    };
 
     _clickItem = (item) => {
         this.push('Webv', {linkUrl: item.linkUrl, title: item.title});
-    }
+    };
 
     render() {
         return (

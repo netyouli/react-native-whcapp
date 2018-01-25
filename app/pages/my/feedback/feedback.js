@@ -54,7 +54,7 @@ class Feedback extends Controller {
             this.toast(json.message);
         });
 
-    }
+    };
 
     render() {
         return (

@@ -37,7 +37,7 @@ export default class MyLike extends BaseList {
                 this.reloadData(json.data.list);
             }
         });
-    }
+    };
 
     render() {
         return super.render();

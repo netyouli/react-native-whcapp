@@ -68,7 +68,7 @@ export default class Forget extends Controller {
                 this.toast(json.message);
             }
         });
-    }
+    };
 
 
     render() {

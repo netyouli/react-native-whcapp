@@ -63,12 +63,12 @@ export default class Home extends Controller {
                 this.loading(false);
             }, 2000);
         })
-    }
+    };
 
     _onDownPullRefresh = (e) => {
         this.page = 1;
         this._request();
-    }
+    };
 
     _onUpPullRefresh = (e) => {
         const {distanceFromEnd = 1} = e;
@@ -76,7 +76,7 @@ export default class Home extends Controller {
             this.page += 1;
             this._request();
         }
-    }
+    };
 
     _loadMoreItem = () => {
         return (
@@ -84,11 +84,11 @@ export default class Home extends Controller {
                 <Text>加载更多...</Text>
             </View>
         );
-    }
+    };
 
     _clickItem = (item) => {
         this.push('Webv',{linkUrl: item.linkUrl, title: item.title});
-    }
+    };
 
     render() {
         const {loading} = this.state;

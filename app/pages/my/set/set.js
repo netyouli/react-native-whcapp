@@ -42,17 +42,13 @@ class Set extends Controller {
 
     _gotoModityUI = (title, type) => {
         this.push('Modify', {title: title, type: type});
-    }
+    };
 
     _exitLogin = () => {
-        /*
-        const {block} = this.props.navigation.state.params;
-        account.exit_login();
-        block && block();*/
         account.exit_login();
         this.props.dispatch(did_logout());
         this.pop();
-    }
+    };
 
     render() {
         const {user_info} = this.props.navigation.state.params;

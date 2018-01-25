@@ -29,7 +29,7 @@ import * as color from '../../constants/color';
 class Blank extends Component {
     static navigationOptions = {
         title: '开发中'
-    }
+    };
 
     constructor(props) {
         super(props);

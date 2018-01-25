@@ -41,7 +41,7 @@ export default class WHCLoading extends Component {
 
     _rotateValue = (value) => {
         this.rotateValue.setValue(value);
-    }
+    };
 
     _startAnimation = () => {
         this.didAnimation = true;
@@ -57,7 +57,7 @@ export default class WHCLoading extends Component {
                 this.didAnimation = false;
             }
         });
-    }
+    };
 
     render() {
         const {show = false, image = null} = this.props;

@@ -55,7 +55,7 @@ CollectCell = ({
             <WHCLine/>
         ]
     );
-}
+};
 
 
 const styles = StyleSheet.create({

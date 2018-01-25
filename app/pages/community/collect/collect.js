@@ -62,7 +62,7 @@ class Collect extends Controller {
                 this.loading(false);
             }
         });
-    }
+    };
 
     render() {
         return (
