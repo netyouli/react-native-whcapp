@@ -8,13 +8,13 @@ Provide learning advice for learning react-native development
 
 一个完整的react-native app 并且带有完整的数据交互实现
 
+**Flutter版本：**[whc_flutter_app](https://github.com/netyouli/whc_flutter_app)
+
 **android版本体验:** [https://fir.im/whcandroid](https://fir.im/whcandroid)
 
 **ios版本体验(内测):** [https://fir.im/whcios](https://fir.im/whcios)
 
 **app所使用数据接口文档地址：**[http://www.wuhaichao.com/api_doc/](http://www.wuhaichao.com/api_doc/)
-
-**个人网站：**[http://www.wuhaichao.com](http://www.wuhaichao.com)
 
 **Support: Android 5+   iOS 8.0+**
 
